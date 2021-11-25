@@ -1,0 +1,88 @@
+body{
+    background-color: #dfdfdf;
+}
+
+#navbarHeader{
+    color: rgb(114, 113, 113);  
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(114, 113, 113);
+    font-size: 3rem;
+}
+
+.navbar{
+    background-color: #858383;
+}
+
+.social-midia{
+    color: rgb(114, 113, 113);
+    font-size: 2rem;
+    margin-right: 6%;
+}
+
+.social-midia:hover{
+    color: rgb(114, 113, 113);
+    opacity: 80%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.album{
+    background-color: #EDEDED;
+}
+
+.img-profile{
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+
+.icon-macrame{
+    width: 10%;
+    display: none;
+}
+
+.icon-top{
+    width: 40px;
+    color: #EDEDED;
+    opacity: 80%;
+    background-color: #9c9898;
+    border-radius: 10%;
+    padding: 7px;
+}
+
+.icon-top:hover{
+    opacity: 70%;
+}
+
+.copyright{
+    color: rgb(114, 113, 113);
+    text-decoration: none;
+}
+
+.copyright:hover{
+    color: rgb(153, 152, 152);
+}
+
+.pcopyright{
+    font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .icon-macrame{
+    display: block;
+  }
+}
